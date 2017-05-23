@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		839147801ED3A13600B95F03 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8391477F1ED3A13600B95F03 /* CalculatorBrain.swift */; };
 		83B99F061EC776760083E17B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B99F051EC776760083E17B /* AppDelegate.swift */; };
 		83B99F081EC776760083E17B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B99F071EC776760083E17B /* ViewController.swift */; };
 		83B99F0B1EC776760083E17B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B99F091EC776760083E17B /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8391477F1ED3A13600B95F03 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		83B99F021EC776760083E17B /* calculator-stanford.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calculator-stanford.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B99F051EC776760083E17B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83B99F071EC776760083E17B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,14 +56,23 @@
 		83B99F041EC776760083E17B /* calculator-stanford */ = {
 			isa = PBXGroup;
 			children = (
-				83B99F051EC776760083E17B /* AppDelegate.swift */,
+				83B99F171EC777180083E17B /* Supporting Files */,
 				83B99F071EC776760083E17B /* ViewController.swift */,
+				8391477F1ED3A13600B95F03 /* CalculatorBrain.swift */,
 				83B99F091EC776760083E17B /* Main.storyboard */,
+			);
+			path = "calculator-stanford";
+			sourceTree = "<group>";
+		};
+		83B99F171EC777180083E17B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83B99F051EC776760083E17B /* AppDelegate.swift */,
 				83B99F0C1EC776760083E17B /* Assets.xcassets */,
 				83B99F0E1EC776760083E17B /* LaunchScreen.storyboard */,
 				83B99F111EC776760083E17B /* Info.plist */,
 			);
-			path = "calculator-stanford";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +107,7 @@
 				TargetAttributes = {
 					83B99F011EC776760083E17B = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3W2EBX6EBQ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839147801ED3A13600B95F03 /* CalculatorBrain.swift in Sources */,
 				83B99F081EC776760083E17B /* ViewController.swift in Sources */,
 				83B99F061EC776760083E17B /* AppDelegate.swift in Sources */,
 			);
@@ -262,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3W2EBX6EBQ;
 				INFOPLIST_FILE = "calculator-stanford/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dmke.calculator-stanford";
@@ -274,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3W2EBX6EBQ;
 				INFOPLIST_FILE = "calculator-stanford/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dmke.calculator-stanford";
@@ -301,6 +316,7 @@
 				83B99F161EC776760083E17B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
